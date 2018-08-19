@@ -22,7 +22,6 @@ var pizza = function () {
    /* this.getBaccon = function () {
         return this.hasBaccon;
     }
-
     this.getCrust = function () {
         return crust;
     }*/

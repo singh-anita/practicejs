@@ -23,6 +23,7 @@ function showOrdinaryPersonName () {
 	sname = "Johnny Evers";
 	console.log (sname);
 }
+
 showCelebrityName () 
 showOrdinaryPersonName ();
 showCelebrityName (); 

@@ -50,7 +50,6 @@ for (var eachItem in mango) {
     console.log(eachItem)
 }
 
-
 function HigherLearning() {
     this.educationLevel = "University";
 }

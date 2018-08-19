@@ -1,5 +1,4 @@
 let fruits = ["apple", "apricot"];//Create an Array
-
 console.log(fruits.length);
 console.log(fruits[0]);
 // console.log(fruits.0);
@@ -11,7 +10,6 @@ fruits.forEach(function(item, index, array) {
 fruits.forEach(function(item) {
   console.log(item);
 });
-
 fruits.push("mango", "papaya");
 //   console.log(fruits);
 
