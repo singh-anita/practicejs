@@ -53,6 +53,7 @@ for (var eachItem in mango) {
 function HigherLearning() {
     this.educationLevel = "University";
 }
+
 var mango = new HigherLearning()
 console.log(mango)
 mango.schoolName = "MIT";

@@ -16,22 +16,19 @@ var pizzaB = new pizza();
 // using var unstead of this var is private and this is public
 
 var pizza = function () {
-    var crust = 'thin';
-    var toppings = 3;
+    this.crust     = 'thin';
+    this.toppings  = 3;
     this.hasBaccon = true;
-   /* this.getBaccon = function () {
-        return this.hasBaccon;
-    }
-    this.getCrust = function () {
-        return crust;
-    }*/
+
     var getToppings = function(){
-        return toppings;
+       return toppings;
     }
-    var tmp ={};
+
+    var tmp         = {};
     tmp.getToppings = getToppings;
     return tmp;
 };
+
 var pizzaA = new pizza();
 console.log(pizzaA.crust); // pizza {hasBaccon: true} 
 
